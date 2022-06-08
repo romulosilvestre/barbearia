@@ -1,1 +1,66 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+<title>Barbecue - Cadastre-se Já</title>
+</head>
+<body>
+    <div class="container">
+        <div class="section-title">
+            <h3>CADASTRE-SE JÁ</h3>
+            <p><strong>Venha fazer parte dessa comunidade, automatize sua empresa, conquiste mais clientes!</strong></p>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-9 col-md-12">
+                <form id="formCadastro" class="contactForm">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12">
+                            <div class="form-group">
+                                <label for="basic-url">Nome da Barbearia*</label>
+                                <input type="text" name="nome" class="form-control form-control-sm" id="nome" placeholder="(Ex: Barbecue)" required="">
+                            </div>
+                        </div>                                
+                        <div class="col-lg-6 col-md-12">
+                            <div class="form-group">
+                                <label>Nome do contato*</label>
+                                <input type="text" class="form-control form-control-sm" name="nomecontato" id="nomecontato" placeholder="(Ex: João da Silva)" data-rule="email" required="">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <div class="form-group">
+                                <label>Telefone do Contato*</label>
+                                <input type="text" name="telefone" class="form-control form-control-sm" id="telefone" placeholder="(Ex: 61 4002-8922)" required="">
+                                <input type="hidden" id="dialCode" name="dialCode" value="55">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <div class="form-group">
+                                <label>E-mail Para Acesso*</label>
+                                <input type="email" class="form-control form-control-sm" name="email" id="email" placeholder="(Ex: joaodasilva@gmail.com)" required="">
+                                <small class="text-info" style="display:none;" id="suggest-email"></small>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <div class="form-group">
+                                <label>Senha <small>(Mínimo de 6 e máximo de 15 caracteres)*</small></label>
+                                <input type="password" class="form-control form-control-sm" name="senha" id="senha" placeholder="Digite uma senha" minlength="6" maxlength="15" required="">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <div class="form-group form-control-sm">
+                                <p>
+                                    <input type="checkbox" id="conduso" name="conduso" required="">
+                                    Li e aceito o <a href="https://img.quizur.com/f/img60a7aa5307a263.45357899.png?lastEdited=1621600858" target="_blank" class="text-barber2">Termo de Condição de Uso.</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <button class="btn btn-primary" type="submit">CADASTRAR</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
