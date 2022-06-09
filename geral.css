@@ -1,1 +1,38 @@
+/*   
+   Seletor{
+      propriedades
+   }
+   
+   O que nós podemos estilizar e como?
+
+   tag       - coloca o nome da tag
+   classe    - .fundo
+
+   identificador  - #nome do identificador
+
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.fundo{
+   background-color: blue;
+}
+
+#topo{
+
+    border: 2px solid chocolate;
+
+}
+*/
+body{
+    background-color: black;
+}
+
+
+
+
+
+
+
 
