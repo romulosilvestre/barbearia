@@ -24,9 +24,23 @@ h1{
     border: 2px solid chocolate;
 
 }
+
+/* # - estiliza o ID
+   . - estiliza a classe
+   tag{
+        - nome da tag
+   }
+
+
 */
 body{
     background-color:burlywood;
+}
+
+#topo{
+    width:887px;
+    height:40px;
+    border: 2px solid red;
 }
 
 /*pai*/
@@ -34,7 +48,7 @@ body{
 #menu{
     margin:0;
     padding: 0;
-    background-color: aqua;
+
 }
 
 /*filho*/
