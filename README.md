@@ -26,7 +26,7 @@ https://www.w3schools.com/html/default.asp
 ```
 https://www.livrosdomaujor.com.br/
 ```
->Sessão 2- CSS
+>Sessão 2 - CSS
 
 ```
 
@@ -34,14 +34,14 @@ https://www.w3schools.com/css/default.asp
 
 ```
 
->Sessão 3- JavaScript
+>Sessão 3 - JavaScript
 
 ```
 https://www.w3schools.com/js/default.asp
 
 ```
 
->Sessão 4- Bootstrap 5
+>Sessão 4 - Bootstrap 5
 
 ```
 https://www.w3schools.com/bootstrap5/bootstrap_get_started.php
