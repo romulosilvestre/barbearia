@@ -38,7 +38,7 @@ body{
 }
 
 #logo{
-    float: left;
+  float: left;
 }
 #slogan{
     position: relative;
@@ -63,7 +63,7 @@ body{
 #busca{
     position:absolute; 
 	right:20px; 
-	top:60px;
+	top:120px;
 	margin: 0;
 	padding: 0;
 	color: #fff;
@@ -72,14 +72,17 @@ body{
 
 }
 
+
+
 /*pai*/
 
-#menu{
-    margin:0;
-    padding: 0;
-    margin-left: 95px;
+nav{
+    position:absolute;
+    top:45px;
+    left:300px;
 
 }
+
 
 /*filho*/
 #menu li{
